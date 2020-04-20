@@ -1,2 +1,2 @@
 # Calculator
-Just another React Native beginner-made calculator
+Just another beginner-made React Native calculator

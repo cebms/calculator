@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     visor: {
         flexDirection: 'row',
         justifyContent: "flex-end",
-        marginBottom: 30
+        marginBottom: 30,
     },
     numberStyle: {
         color: "#FFF",
