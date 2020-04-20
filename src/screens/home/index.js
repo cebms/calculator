@@ -106,7 +106,7 @@ const Calculator = () => {
                     setNumber([...number, 3])
                     output = output==null?'3':output+'3'
                 }}/>
-                <Btn value={'clr'} style={{margin: 10}} btnPressed={() => {
+                <Btn value={'AC'} style={{margin: 10}} btnPressed={() => {
                     setNumber([])
                     output = null
                     inputs.splice(0,(inputs.length))
@@ -160,11 +160,11 @@ const Calculator = () => {
                     setNumber([...number, 0])
                     output = output==null?'0':output+'0'
                 }}/>
-                <Btn value={ '/' } style={{margin: 10}} btnPressed={() => {
-                    output = output==null?'/':output+'/'
+                <Btn value={ '÷' } style={{margin: 10}} btnPressed={() => {
+                    output = output==null?'÷':output+'÷'
                     register('/')
                 }}/>
-                <Btn value={ '*' } style={{margin: 10}} btnPressed={() =>  {
+                <Btn value={ 'X' } style={{margin: 10}} btnPressed={() =>  {
                     output = output==null?'x':output+'x'
                     register('*')
                 }}/>

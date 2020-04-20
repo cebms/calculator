@@ -10,7 +10,7 @@ const Btn = ( {value, style, btnPressed} ) => {
             style={[styles.container, {margin: style.margin}]}
             onPress={() => btnPressed()}
         >
-            <Text style={{color: "#FFF", fontWeight: 'bold', fontSize: 16}}>{ value }</Text>
+            <Text style={{color: "#FFF", fontWeight: 'bold', fontSize: 20}}>{ value }</Text>
         </TouchableOpacity> 
     )
     

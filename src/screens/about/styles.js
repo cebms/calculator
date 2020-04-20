@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         color: "#FFF"
     },
     logo: {
-        backgroundColor: "#154",
+        backgroundColor: "#ff1e56",
         padding:7,
         borderRadius:20
     }

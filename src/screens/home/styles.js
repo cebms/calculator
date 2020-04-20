@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
     row: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        marginVertical: 10
+        marginVertical: 10,
+        
     },
     bottomRow: {
         flexDirection: 'row',
