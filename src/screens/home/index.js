@@ -9,7 +9,6 @@ import { useNavigation } from '@react-navigation/native'
 
 let output = null
 let inputs = []
-let a = 0
 
 const Calculator = () => {
     const Navigation = useNavigation()
